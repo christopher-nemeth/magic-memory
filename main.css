@@ -1,0 +1,196 @@
+/*-------Reset Styling--------*/
+/*----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: Catamaran;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 52, 56);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+}
+
+h1 {
+  color: white;
+  font-family: Catamaran;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.7em;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+nav ul {
+  width: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: rgba(164, 33, 33);
+  font-weight: 600;
+}
+
+.page-wrapper {
+  height: 100%;
+}
+
+.main {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  line-height: 1.2;
+}
+
+.main p {
+  font-size: 1.2em;
+  padding-bottom: 4%;
+}
+
+.cta-button {
+  background-color: rgb(164, 33, 33);
+  border: none;
+  border-radius: 2em;
+  color: white;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: rgba(164, 33, 33, .8);
+}
+
+.game-section {
+   height: 100vh;
+}
+
+.set-names li {
+  font-size: 2.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.set-names li:hover {
+  color: rgba(164, 33, 33);
+}
+
+.random-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  line-height: 1.6;
+}
+
+.image-button {
+  background-color: rgb(164, 33, 33);
+  border: none;
+  border-radius: 2em;
+  color: white;
+  padding: 2% 4%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+
+.image-button:hover {
+  background-color: rgba(164, 33, 33, .8);
+}
+
+.card-info {
+  font-size: 1.2em;
+  display: flex;
+}
+
+.card-info h3 {
+  padding-right: 2%;
+  font-weight: 700;
+}
+
+.card-text{
+  padding-bottom: 5%;
+}
+
+#card-name {
+  font-size: 2em;
+  padding-bottom: 5%;
+}
+
+#card-image {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
