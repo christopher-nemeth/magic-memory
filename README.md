@@ -1,4 +1,4 @@
-![Magic-Memory](https://imgur.com/5yONaLA)
+![Magic-Memory](magic-memory.png)
 
 # magic-memory
 
