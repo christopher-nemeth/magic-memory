@@ -1,4 +1,4 @@
-![Magic-Memory](https://drive.google.com/file/d/1UL3cvR_VgPid9jdWVT4o_JQWTVleVk99/view?usp=sharing)
+![Magic-Memory](https://imgur.com/5yONaLA)
 
 # magic-memory
 
