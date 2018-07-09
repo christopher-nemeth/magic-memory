@@ -1,3 +1,5 @@
+![Magic-Memory](https://drive.google.com/file/d/1UL3cvR_VgPid9jdWVT4o_JQWTVleVk99/view?usp=sharing)
+
 # magic-memory
 
 [Magic Memory](https://magic-memory-29443.firebaseapp.com/index.html) is a javascript web app that I created for Magic: the Gathering players. Essentially, it is a flash card style memory builder. It pulls from the [Magic: the Gathering API](https://docs.magicthegathering.io/) in order to fetch the information. For the scope of this project and it's deadline, I only incorporated one set of cards to demonstrate API fetch calls and DOM manipulation.
@@ -19,6 +21,21 @@ Future implementations will include:
 - General asynchronous Javscript issues.
 
 ## Setup Instructions
--
 
-![Magic-Memory](https://drive.google.com/file/d/1UL3cvR_VgPid9jdWVT4o_JQWTVleVk99/view?usp=sharing)
+To run this project locally:
+
+1. Fork and clone this repo
+2. In your command line run: `git clone {your-forked-repo-link}
+
+## Contact Author
+Christopher Nemeth
+cnemeth1@gmail.com
+
+If you would like to contribute please contact me here.
+
+
+--
+MIT License
+
+
+
