@@ -17,3 +17,8 @@ Future implementations will include:
 ## Challenges
 
 - General asynchronous Javscript issues.
+
+## Setup Instructions
+-
+
+![Magic-Memory](https://drive.google.com/file/d/1UL3cvR_VgPid9jdWVT4o_JQWTVleVk99/view?usp=sharing)
